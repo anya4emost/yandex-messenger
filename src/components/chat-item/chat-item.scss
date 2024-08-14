@@ -14,28 +14,29 @@
     margin-right: 16px;
 }
 
-.first-row, .second-row {
+.first-row,
+.second-row {
     display: flex;
     justify-content: space-between;
 }
 
-.second-row{
+.second-row {
     align-items: flex-end;
     margin-top: 12px;
 }
 
-.message{
+.message {
     max-width: 85%;
     color: $grey;
     @include font-body-smal;
 }
 
-.time{
+.time {
     color: $grey;
     @include font-body-smal;
 }
 
-.count{
+.count {
     min-width: 20px;
     height: 20px;
     padding: 4px;
@@ -44,12 +45,10 @@
     justify-content: center;
     display: flex;
 
-    >div{
+    > div {
         display: flex;
         align-self: center;
         color: $white;
         @include font-body-x-smal;
     }
 }
-
-

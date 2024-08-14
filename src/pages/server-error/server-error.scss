@@ -1,20 +1,19 @@
-@import '../../styles/variables.scss';
+@import "../../styles/variables.scss";
 
 .not-found-wrapper {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
-.not-found-text{
-    display: flex;
-    align-self: center;
-    color: $dark-grey;
+.not-found-text {
+  display: flex;
+  align-self: center;
+  color: $dark-grey;
 }
 
-.not-found-to-chats{
-    display: flex;
-    align-self: center;
-    margin-top: 36px;
-    
+.not-found-to-chats {
+  display: flex;
+  align-self: center;
+  margin-top: 36px;
 }

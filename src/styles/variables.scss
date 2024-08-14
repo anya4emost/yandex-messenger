@@ -10,26 +10,26 @@ $pink: #ff16ef;
 $light-pink: #ffb0fa;
 $cian: #52ceff;
 
-@mixin font-body-normal{
-    font-family: "Roboto", "Arial", sans-serif;
+@mixin font-body-normal {
+    font-family: 'Roboto', 'Arial', sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 
-@mixin font-head-5-normal{
-    font-family: "Roboto", "Arial", sans-serif;
+@mixin font-head-5-normal {
+    font-family: 'Roboto', 'Arial', sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
 
-@mixin font-body-smal{
-    font-family: "Roboto", "Arial", sans-serif;
+@mixin font-body-smal {
+    font-family: 'Roboto', 'Arial', sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
 
-@mixin font-body-x-smal{
-    font-family: "Roboto", "Arial", sans-serif;
+@mixin font-body-x-smal {
+    font-family: 'Roboto', 'Arial', sans-serif;
     font-size: 12px;
     font-weight: 400;
 }

@@ -1,6 +1,8 @@
 <div class="container">
     <form class="registration-form">
-        <div class="form-heading"><h5>Регистрация</h5></div>
+        <div class="form-heading">
+            <h5>Регистрация</h5>
+        </div>
         <div class="input-wrapper">
             {{> Input label="Почта" name="email" type="text"}}
         </div>
@@ -19,7 +21,7 @@
         <div class="input-wrapper">
             {{> Input label="Пароль" name="password" type="text"}}
         </div>
-        {{> Input label="Пароль (ещё раз)" name="password-double" type="password"}} 
+        {{> Input label="Пароль (ещё раз)" name="password-double" type="password"}}
         <div class="button-wrapper">
             {{> Button label="Зарегистрироваться" theme="primary" type="submit"}}
         </div>
