@@ -1,0 +1,15 @@
+<div class="container">
+    <form class="login-form">
+        <div class="form-heading"><h5>Вход</h5></div>
+        <div class="input-wrapper">
+            {{> Input label="Логин" name="login" type="text"}}
+        </div>
+        {{> Input label="Пароль" name="password" type="password"}} 
+        <div class="button-wrapper">
+            {{> Button label="Войти" theme="primary" type="submit"}}
+        </div>
+        <div class="link-wrapper">
+            {{> Link text="Зарегистрироваться"}}
+        </div>
+    </form>
+</div>

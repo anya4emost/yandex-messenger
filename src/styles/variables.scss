@@ -1,0 +1,35 @@
+// COLORS
+
+$black: #000;
+$white: #fff;
+$grey: #b0b0b0;
+$dark-grey: #898989;
+$light-grey: #d9d9d9;
+$surface-grey: #faf7f7;
+$pink: #ff16ef;
+$light-pink: #ffb0fa;
+$cian: #52ceff;
+
+@mixin font-body-normal{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@mixin font-head-5-normal{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@mixin font-body-smal{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@mixin font-body-x-smal{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}

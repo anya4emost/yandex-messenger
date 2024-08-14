@@ -1,0 +1,31 @@
+@import './normalize.scss'; 
+@import './variables.scss';
+
+html{
+    height: 100vh;
+}
+
+body{
+    min-height: 100%;
+    display: flex;
+    font-family: 'Roboto', Arial;
+}
+
+#app{
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+}
+
+h6{
+    @include font-body-normal;
+}
+
+h5{
+    @include font-head-5-normal;
+}
+

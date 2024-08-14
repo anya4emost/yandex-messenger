@@ -1,0 +1,87 @@
+@import '../../styles/variables.scss';
+
+.page{
+  display: flex;
+  width: 100%;
+}
+
+.sidebar{
+  border-right: 1px solid $grey;
+  min-width: 420px;
+  max-width: 420px;
+  background-color: $surface-grey;
+}
+
+.menu{
+  padding: 24px 16px;
+  background-image: linear-gradient(90deg, rgba(255, 176, 250, .3), rgba(82, 206, 255, .3));
+  display: flex;
+}
+
+.profile-main{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.profile-current-profile{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 32px;
+}
+
+.profile-avatar{
+  border-radius: 20px;
+  background-color: $grey;
+  margin-bottom: 12px;
+}
+
+.profile-current-avatar{
+  width: 212px;
+  height: 212px;
+}
+
+.profile-current-name, .profile-current-nikname, .profile-current-birthday{
+  color: $dark-grey;
+  margin-bottom: 12px;
+}
+
+.profile-current-phone{
+  margin-bottom: 12px;
+}
+
+.profile-settings-icons{
+  position: absolute;
+  right: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-edit-icon-wrapper{
+  margin-bottom: 4px;
+}
+
+.profile-settings-avatar{
+  position: relative;
+  width: 126px;
+  height: 126px;
+  align-self: center;
+}
+
+.profile-gallery-icon-wrapper{
+  position: absolute;
+  bottom: -6px;
+  right: -30px;
+}
+
+.profile-input-wrapper{
+  margin-top: 12px;
+}
+
+.profile-button-wrapper{
+  margin-top: 24px;
+}

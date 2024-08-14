@@ -1,0 +1,113 @@
+<div class="page">
+    <sidebar class="sidebar">
+        <section class="menu">
+            {{> MenuItem text="Чаты" active="true"}}
+            <div class="item-wrapper">{{> MenuItem text="Профиль"}}</div>
+        </section>
+        <section class="search-area">
+            {{> Input name="search" type="text" placeholder="Поиск"}}
+        </section>
+        <section class="scrollable-area">
+            {{> ChatItem
+            heading="Название чата"
+            time="15:24"
+            message="Последние строки, написанные в этом чате от кого бы то ни было"
+            count="5"}}
+            {{> ChatItem
+            heading="Лучший друг"
+            time="15:37"
+            message="Последние строки, написанные в этом чате от кого бы то ни было"
+            count="25"}}
+            {{> ChatItem
+            heading="Лучший друг"
+            time="15:37"
+            message="Последние строки, написанные в этом чате от кого бы то ни было"
+            count="25"}}
+            {{> ChatItem
+            heading="Лучший друг"
+            time="15:37"
+            message="Последние строки, написанные в этом чате от кого бы то ни было"
+            count="25"}}
+            {{> ChatItem
+            heading="Лучший друг"
+            time="15:37"
+            message="Последние строки, написанные в этом чате от кого бы то ни было"
+            count="25"}}
+            {{> ChatItem
+            heading="Лучший друг"
+            time="15:37"
+            message="Последние строки, написанные в этом чате от кого бы то ни было"
+            count="25"}}
+            {{> ChatItem
+            heading="Лучший друг"
+            time="15:37"
+            message="Последние строки, написанные в этом чате от кого бы то ни было"
+            count="25"}}
+            {{> ChatItem
+            heading="Лучший друг"
+            time="15:37"
+            message="Последние строки, написанные в этом чате от кого бы то ни было"
+            count="25"}}
+            {{> ChatItem
+            heading="Лучший друг"
+            time="15:37"
+            message="Последние строки, написанные в этом чате от кого бы то ни было"
+            count="25"}}
+            {{> ChatItem
+            heading="Лучший друг"
+            time="15:37"
+            message="Последние строки, написанные в этом чате от кого бы то ни было"
+            count="25"}}
+            {{> ChatItem
+            heading="Лучший друг"
+            time="15:37"
+            message="Последние строки, написанные в этом чате от кого бы то ни было"
+            count="25"}}
+            {{> ChatItem
+            heading="Лучший друг"
+            time="15:37"
+            message="Последние строки, написанные в этом чате от кого бы то ни было"
+            count="25"}}
+            {{> ChatItem
+            heading="Лучший друг"
+            time="15:37"
+            message="Последние строки, написанные в этом чате от кого бы то ни было"
+            count="25"}}
+            {{> ChatItem
+            heading="Лучший друг"
+            time="15:37"
+            message="Последние строки, написанные в этом чате от кого бы то ни было"
+            count="25"}}
+            {{> ChatItem
+            heading="Лучший друг"
+            time="15:37"
+            message="Последние строки, написанные в этом чате от кого бы то ни было"
+            count="25"}}
+        </section>
+    </sidebar>
+    <main class="main">
+        <section class="chats-head-row">
+            <div class="chats-head">
+                <div class="chats-avatar"></div>
+                <div class="chats-chat-name">
+                    {{chatName}}
+                </div>
+            </div>
+            <div class="chats-options">
+                <img class="icon" src="./icons/dots.svg" alt="Три точки">
+            </div>
+        </section>
+        <section class="message-content">
+
+        </section>
+        <section class="send-message-area">
+            <form>
+                <img class="icon" src="./icons/clip.svg" alt="Скрепка">
+                <div class="chats-message-wrapper">
+                    {{> Input name="message" type="text" placeholder="Сообщение"}}
+                </div>
+                <img class="icon" src="./icons/mail.svg" alt="Письмо">
+            </form>
+        </section>
+    </main>
+</div>
