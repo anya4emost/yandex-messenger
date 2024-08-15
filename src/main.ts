@@ -40,17 +40,3 @@ document.addEventListener('click', e => {
     e.stopImmediatePropagation();
   }
 })
-
-// Handlebars.registerPartial('button', button);
-
-// const templ = "<a>Ссылка</a>Name: {{name}}";
-
-// document.addEventListener('DOMContentLoaded', () => {
-//   const root = document.querySelector('#app');
-
-//   const template = Handlebars.compile(templ);
-
-//   const result = template({ name: 'John1' });
-
-//   root.innerHTML = result;
-// })
