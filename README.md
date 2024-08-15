@@ -24,5 +24,3 @@ https://deploy--messenger-mikhailova.netlify.app/
   Смена пароля
   404
   500
-  
-  
