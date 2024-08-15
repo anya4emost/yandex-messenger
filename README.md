@@ -13,7 +13,7 @@ npm run build — сборка стабильной версии.
 https://www.figma.com/design/JA5b31Jd3pqQOiJGNNaY3z/Messanger?node-id=18-14&t=lBfUKGHVlnNq8pib-1
 
 # Ссылка на netlify: 
-https://deploy--messenger-mikhailova.netlify.app/
+https://deploy--lambent-kitten-e394e7.netlify.app/
 
 # Страницы проекта
 
