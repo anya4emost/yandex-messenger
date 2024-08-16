@@ -1,0 +1,41 @@
+<div class="page">
+    <sidebar class="sidebar">
+        <section class="menu">
+            {{> MenuItem text="Чаты"}}
+            <div class="item-wrapper">{{> MenuItem text="Профиль" active="true"}}</div>
+        </section>
+
+        <section class="profile-current-profile">
+            <div class="profile-avatar profile-current-avatar"></div>
+            <p class="profile-current-name">{{name}}</p>
+            <p class="profile-current-nikname">{{nikname}}</p>
+            <p class="profile-current-phone">{{phone}}</p>
+            <p class="profile-current-birthday">{{birthday}}</p>
+            <div class="profile-settings-icons">
+                <div class="profile-edit-icon-wrapper">
+                    <img class="icon" src="./icons/edit.svg" alt="иконка редактирования">
+                </div>
+                <div class="profile-key-icon-wrapper">
+                    <img class="icon" src="./icons/key.svg" alt="иконка ключик">
+                </div>
+            </div>
+        </section>
+    </sidebar>
+    <main class="profile-main">
+        <form>
+            <div class="profile-avatar profile-settings-avatar">
+                <div class="profile-gallery-icon-wrapper">
+                    <img class="icon-gallery" src="./icons/gallery.svg" alt="иконка изображения">
+                </div>
+            </div>
+            <div class="profile-input-wrapper">{{> Input label="Имя" name="first_name" type="text"}}</div>
+            <div class="profile-input-wrapper">{{> Input label="Фамилия" name="second_name" type="text"}}</div>
+            <div class="profile-input-wrapper">{{> Input label="Никнейм" name="display_name" type="text"}}</div>
+            <div class="profile-input-wrapper">{{> Input label="Почта" name="email" type="text"}}</div>
+            <div class="profile-input-wrapper">{{> Input label="Логин" name="login" type="text"}}</div>
+            <div class="profile-input-wrapper">{{> Input label="Телефон" name="phone" type="phone"}}</div>
+            <div class="profile-input-wrapper">{{> Input label="Дата рождения" name="birthday" type="text"}}</div>
+            <div class="profile-button-wrapper">{{> Button label="Сохранить" theme="secondary" type="submit"}}</div>
+        </form>
+    </main>
+</div>
