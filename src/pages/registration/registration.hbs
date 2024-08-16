@@ -1,4 +1,4 @@
-<div class="container">
+<main class="container">
     <form class="registration-form">
         <div class="form-heading">
             <h5>Регистрация</h5>
@@ -10,10 +10,10 @@
             {{> Input label="Логин" name="login" type="text"}}
         </div>
         <div class="input-wrapper">
-            {{> Input label="Имя" name="first-name" type="text"}}
+            {{> Input label="Имя" name="first_name" type="text"}}
         </div>
         <div class="input-wrapper">
-            {{> Input label="Фамилия" name="second-name" type="text"}}
+            {{> Input label="Фамилия" name="second_name" type="text"}}
         </div>
         <div class="input-wrapper">
             {{> Input label="Телефон" name="phone " type="tel"}}
@@ -21,7 +21,7 @@
         <div class="input-wrapper">
             {{> Input label="Пароль" name="password" type="text"}}
         </div>
-        {{> Input label="Пароль (ещё раз)" name="password-double" type="password"}}
+        {{> Input label="Пароль (ещё раз)" name="password_double" type="password"}}
         <div class="button-wrapper">
             {{> Button label="Зарегистрироваться" theme="primary" type="submit"}}
         </div>
@@ -29,4 +29,4 @@
             {{> Link text="Войти"}}
         </div>
     </form>
-</div>
+</main>
